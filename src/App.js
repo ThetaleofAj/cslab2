@@ -18,14 +18,12 @@ function App() {
         (error) => {
         }
       )
-      const interval = setInterval(() => {
+     setInterval(() => {
         window.location.reload()
       }, 60000);
+      
   },[])
 
-  const doThis =()=>{
-    console.log(info.information)
-  }
   
   return (
   <>
