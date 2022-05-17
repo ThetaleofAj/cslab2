@@ -1,0 +1,19 @@
+body{
+ 
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/32/93/fluffy-white-cartoon-clouds-in-blue-sky-set-vector-16043293.jpg")
+}
+
+.CurrentWeather{
+  font-size: 50px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.area{
+  text-align: center;
+}
+
+.area2{
+  text-align: center;
+  font-size: 40px ;
+}

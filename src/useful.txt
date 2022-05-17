@@ -1,0 +1,9 @@
+{data.map(item=>(
+  <li key={item.id}>
+{item.information}
+  </li>
+    ))}
+    <div>
+      <p>{info.information}</p>
+      <button onClick={doThis}>Dothis</button>
+    </div>
