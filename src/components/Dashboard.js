@@ -12,7 +12,7 @@ function Dashboard(){
   const [info,setInfo] = useState({})
 
   useEffect(()=>{
-    fetch("http://andyson4.pythonanywhere.com/api/home")
+    fetch("https://andyson4.pythonanywhere.com/api/home")
       .then(res => res.json())
       .then(
         (result) => {
@@ -24,7 +24,7 @@ function Dashboard(){
         }
       )
      setInterval(() => {
-      fetch("http://andyson4.pythonanywhere.com/api/home")
+      fetch("https://andyson4.pythonanywhere.com/api/home")
       .then(res => res.json())
       .then(
         (result) => {
