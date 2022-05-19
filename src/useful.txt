@@ -7,3 +7,16 @@
       <p>{info.information}</p>
       <button onClick={doThis}>Dothis</button>
     </div>
+
+
+
+
+
+
+
+
+
+    https://andyson3.pythonanywhere.com/api/post
+
+
+    https://andyson3.pythonanywhere.com/api/home

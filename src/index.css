@@ -1,19 +1,29 @@
 body{
- 
-  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/32/93/fluffy-white-cartoon-clouds-in-blue-sky-set-vector-16043293.jpg")
+   background-color: black;
+}
+.appTitle{
+   text-align: center;
+   color: white;
+}
+.loginArea{
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+   align-items: center;
+ }
+
+ .sectionTitle{
+    text-align: center;
+    color: white;
+ }
+
+.Container{
+   height: 10;
+   width: 10;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-.CurrentWeather{
-  font-size: 50px;
-  padding-top: 40px;
-  font-weight: bold;
-}
-
-.area{
-  text-align: center;
-}
-
-.area2{
-  text-align: center;
-  font-size: 40px ;
+.name{
+   color: white;
 }
