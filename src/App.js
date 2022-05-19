@@ -1,7 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
-import { BrowserRouter,Route,Routes, Switch } from "react-router-dom";
+import { BrowserRouter,Route,Routes} from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Login from "./components/Login";
 
